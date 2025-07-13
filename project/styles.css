@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background: #f6f9fc;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #1e2a38;
+    color: white;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 500;
+  }
+  
+  nav .btn {
+    background: #00aaff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #00aaff, #0066cc);
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .btn {
+    margin-top: 1rem;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    background: #007acc;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #005fa3;
+  }
+  
+  .btn.small {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn.primary {
+    background-color: #28a745;
+  }
+  
+  .btn.primary:hover {
+    background-color: #1f7d34;
+  }
+  
+  .testimonials {
+    padding: 2rem;
+    background: #e9ecef;
+    text-align: center;
+  }
+  
+  footer {
+    background: #1e2a38;
+    color: #aaa;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav a, nav .btn {
+      margin: 0.25rem 0;
+    }
+  }
+  
