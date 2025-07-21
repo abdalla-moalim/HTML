@@ -353,3 +353,69 @@ cd fst
 ls
 cd html
 code .
+git --version
+GIT init
+git init
+git add
+git add .
+git commit -m "This is my HTML course content"
+git config --global user.email "admali098@gmail.com"
+git config --global user.name "abdalla-moalim"
+git commit -m "This is my HTML course content"
+history
+clear
+git branch
+git branch -M main
+git branch
+git remote add origin https://github.com/abdalla-moalim/HTML.git
+ls
+cd fst
+ls
+cd
+git push -u origin main
+ls
+cd fst
+ls
+cd html 
+ls
+code .
+clear
+git
+git show
+git status
+clear
+cd fst
+ls
+cd html
+ls
+code .
+LS
+ls
+cd ai_generated
+mkdir ai-genereated
+cd ai-genereated/
+ls
+clear
+git status
+clear
+ls
+cd fst
+ls
+cd
+ls
+cd snap
+explorer.exe .
+ls
+cd
+ls
+cd fst
+ls
+cd html
+ls
+mkdir anchors
+code .
+mkdir <p>, <pre>, <br> and <hr> elements
+mkdir <p>__<pre>__<br>__<hr>__elements
+ls
+cd p__pre__br__hr__elements/
+ls
