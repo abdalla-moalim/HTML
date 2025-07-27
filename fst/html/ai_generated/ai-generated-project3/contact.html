@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <h2><i class="fas fa-code"></i> Menu</h2>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-laptop-code"></i> About</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content fade-in">
+      <header>
+        <h1>Contact Us</h1>
+      </header>
+
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required />
+        <input type="email" id="contactEmail" placeholder="Your Email" required />
+        <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="contactMessageStatus" class="form-message"></p>
+
+      <footer>
+        <p>&copy; 2025 FullStack Devs</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

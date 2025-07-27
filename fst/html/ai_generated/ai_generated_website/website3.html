@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Full Stack Developer</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2><i class="fas fa-code"></i> Dev Portal</h2>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="benefits.html"><i class="fas fa-star"></i> Benefits</a></li>
+      <li><a href="skills.html"><i class="fas fa-tools"></i> Skills</a></li>
+      <li><a href="growth.html"><i class="fas fa-chart-line"></i> Growth</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <section>
+      <h2>Get in Touch</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="responseMessage" style="margin-top: 20px; font-weight: bold;"></p>
+    </section>
+
+    <footer>
+      &copy; 2025 Full Stack Hub. All rights reserved.
+    </footer>
+  </div>
+
+  <!-- JavaScript for form interactivity -->
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      // Get values
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+      const response = document.getElementById("responseMessage");
+
+      // Simple validation
+      if (name === "" || email === "" || message === "") {
+        response.style.color = "red";
+        response.textContent = "Please fill in all fields.";
+        return;
+      }
+
+      // Simulate success (can be replaced with real API later)
+      response.style.color = "green";
+      response.textContent = "Thanks for contacting us, " + name + "! We'll get back to you shortly.";
+
+      // Optionally reset form
+      document.getElementById("contactForm").reset();
+    });
+  </script>
+
+</body>
+</html>

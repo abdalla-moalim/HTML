@@ -419,3 +419,176 @@ mkdir <p>__<pre>__<br>__<hr>__elements
 ls
 cd p__pre__br__hr__elements/
 ls
+git status 
+clear
+git add .
+git commit -m I added the HTML Intro, Anchors elements,  <p>, <pre>, <br> and <hr> elements, <div>, <img>, <ul>, <ol> elements, table, ai_generated folder, portfolio v1 and v2
+-bash: p: No such file or directory
+git commit -m I added the HTML Intro, Anchors elements,  p, pre, br and hr elements, div, img, ul, ol elements, table, ai_generated folder, portfolio v1 and v2
+git commit -m "I added the HTML Intro, Anchors elements, p, pre, br and hr elements, div, img, ul, ol elements, table, ai_generated folder, portfolio v1 and v2."
+git push
+git status
+git commit -m "I updated tables by adding thead and tbody"
+ls
+cd fst
+ls
+cd html
+ls
+git status 
+git commit -m "I added thead and tbody to the table"
+git push
+git status
+cleaer
+clear
+cd fst
+ls
+cd
+ls
+rm project ai_generated_project
+mv project ai_generated_project
+ls
+mv project1/ ai_generated_project2/
+ls
+ls -a
+ls
+mv ai_generated_project ai_generated_project1
+ls
+cd fst
+ls
+cd html
+ls
+cd
+mv ai_generated_project1 ai_generated_project2 ai_generated
+mv ai_generated_project1 ai_generated_project2 ai_generated/
+cd fst
+cd html
+mv ai_genereated/ ai_generated
+cd
+mv ai_generated_project1 ai_generated_project2 ai_generated/
+cd ai_generated_project
+cd fst
+ls
+cd html
+ls
+cd ai_generated/
+ls
+cd ..
+mv ai_generated fst
+ls
+cd ..
+ls
+cd ..
+ls
+cd fst
+ls
+cd html
+ls
+mv fst ai_generated
+ls
+clear
+cd ..
+ls
+cd ..
+ls
+mv ai_generated_project1 ai_generated_project2 fst/
+ls
+cd fst
+ls
+mv ai_generated_project1 ai_generated_project2 html/
+ls
+cd hmtl
+cd html
+ls
+mv ai_generated_project1 ai_generated_project2 ai_generated/
+ls
+cd ai_generated/
+ls
+cd ..
+less
+less ai_generated/
+cd ..
+less
+less fst
+less -l html/
+less html/
+l html/
+ls html/
+l
+ls
+alias l
+ls -cf
+ls
+l
+ls --a
+la -
+la -a
+ls -a
+la
+alias la
+ls
+alias
+whatis my name
+whatis myname
+location : London
+name: Abdalla
+whatis name
+whatis ?
+whatis hostname
+whatis ls
+whatis help
+ls
+cd fst
+ls
+cd html
+ls
+code .
+ls
+clear
+ls
+cd fst
+ls
+cd html
+ls
+code. 
+cd 
+sudo apt update
+sudo apt upgrade
+sudo
+code 
+cd fst
+ls
+cd html
+ls
+clear
+ls
+cd fst
+ls
+cd html
+ls
+cd tables
+cd Tables
+mv Tables tables
+cd ..
+mv Tables tables
+ls
+cd tables
+ls
+code .
+clear
+ls
+cd fst
+ls
+cd html
+ls
+code .
+ls
+mkdir forms
+ls
+cd forms
+ls
+touch forms.html
+code .
+cd ..
+cd ai_generated/
+ls
+code .
