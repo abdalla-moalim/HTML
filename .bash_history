@@ -592,3 +592,12 @@ cd ..
 cd ai_generated/
 ls
 code .
+clear
+ls
+git status
+git add .
+git commit -m "added a generated ai-websites for developers, added forms, and ai-generated forms, added footer to tables"
+git push
+git status
+oepn explorer.exe .
+explorer.exe .

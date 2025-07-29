@@ -1,0 +1,8 @@
+PID: 3266 START: 1753807009353547008 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init [sid=repo-20250729T163646Z-P00000cc2/repo-20250729T163649Z-P00000cc2]
+
+PID: 3266 START: 1753807009374298880 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3266 END: 1753807009378665984 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3266 END: 1753807009378773760 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init [sid=repo-20250729T163646Z-P00000cc2/repo-20250729T163649Z-P00000cc2]
+
